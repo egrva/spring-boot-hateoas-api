@@ -1,0 +1,41 @@
+= Описание API по урокам
+
+== Методы
+
+|===
+|Метод | Назначение
+|`PUT`
+|Обновить сущность или ее состояние
+|===
+
+=== Проведение урока
+
+Можно провести урок со статусом *PLANED*
+
+.request
+
+include::{snippets}/conduct_lesson/http-request.adoc[]
+
+.response
+
+include::{snippets}/conduct_lesson/http-response.adoc[]
+
+.response-fields
+
+include::{snippets}/conduct_lesson/response-fields.adoc[]
+
+=== Отмена урока
+
+Можно отменить урок со статусом *PLANED*
+
+.request
+
+include::{snippets}/cancel_lesson/http-request.adoc[]
+
+.response
+
+include::{snippets}/cancel_lesson/http-response.adoc[]
+
+.response-fields
+
+include::{snippets}/cancel_lesson/response-fields.adoc[]
